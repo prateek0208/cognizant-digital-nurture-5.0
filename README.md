@@ -2,7 +2,7 @@
 
 This repository contains my assignments for the **Cognizant Digital Nurture 3.0** training program.
 
-## Week 1 - Data Structures and Algorithms in Java
+## Week 2 - Data Structures and Algorithms in Java
 
 | Exercise | Topic | Concepts Covered |
 |----------|-------|-----------------|
