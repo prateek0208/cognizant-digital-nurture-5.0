@@ -1,4 +1,4 @@
-# Cognizant Digital Nurture 3.0
+# Cognizant Digital Nurture 5.0
 
 This repository contains my assignments for the **Cognizant Digital Nurture 3.0** training program.
 
