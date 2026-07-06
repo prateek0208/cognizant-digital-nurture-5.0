@@ -32,7 +32,7 @@ This section contains solutions covering various Design Patterns.
 | Exercise 6 | Library Management System | Search Algorithms on Strings (Book Titles) |
 | Exercise 7 | Financial Forecasting | Recursion, Iterative Optimization |
 
-## Week 3 - PL/SQL Programming
+## PL/SQL Exercise
 
 This section contains PL/SQL exercises for a **Banking Management System** covering 7 core PL/SQL concepts through practical banking scenarios.
 
@@ -108,7 +108,7 @@ javac Exercise1_InventoryManagementSystem.java
 java Exercise1_InventoryManagementSystem
 ```
 
-### Week 3 (PL/SQL)
+### PL/SQL Exercise
 1. Make sure you have **Oracle Database** (11g or later) or **Oracle XE** installed
 2. Open **SQL*Plus** or **Oracle SQL Developer**
 3. Run the schema setup first, then exercises in order:
