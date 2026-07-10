@@ -63,5 +63,39 @@ This section contains PL/SQL exercises for a **Banking Management System** cover
 
 ---
 
+## 📁 WEEK-2_ASSIGNMENTS
+
+This folder contains assignments for **Spring Core and Maven**.
+
+---
+
+### 📂 Assignments_Spring_Core_and_Maven
+
+| Exercise | Topic | Key Concepts |
+|----------|-------|-------------|
+| Exercise 1 | Configuring a Basic Spring Application | Maven project setup, Spring Context, XML bean definitions |
+| Exercise 2 | Implementing Dependency Injection | IoC, Setter Injection, `<property>` wiring in XML |
+| Exercise 3 | Implementing Logging with Spring AOP | `@Aspect`, `@Around` advice, execution time tracking |
+| Exercise 4 | Creating and Configuring a Maven Project | `pom.xml` with Spring Context/AOP/WebMVC, Maven Compiler Plugin |
+| Exercise 5 | Configuring the Spring IoC Container | IoC container lifecycle, bean management, setter injection |
+| Exercise 6 | Configuring Beans with Annotations | `@Service`, `@Repository`, `@Autowired`, component scanning |
+| Exercise 7 | Constructor and Setter Injection | `<constructor-arg>`, `<property>`, both injection types |
+| Exercise 8 | Implementing Basic AOP with Spring | `@Before`, `@After` advice, AspectJ auto-proxying |
+| Exercise 9 | Creating a Spring Boot Application | Spring Boot, REST API, Spring Data JPA, H2 Database, CRUD |
+
+#### Exercise 9 — REST API Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/api/books` | Get all books |
+| GET | `/api/books/{id}` | Get book by ID |
+| POST | `/api/books` | Add a new book |
+| PUT | `/api/books/{id}` | Update a book |
+| DELETE | `/api/books/{id}` | Delete a book |
+| GET | `/api/books/search/author?author=` | Search by author |
+| GET | `/api/books/search/title?keyword=` | Search by title keyword |
+
+---
+
 > **Program**: Cognizant Digital Nurture 5.0  
 > **Language**: Java (Exercises), PL/SQL (Database)
