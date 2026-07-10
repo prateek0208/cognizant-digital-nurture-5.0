@@ -6,7 +6,7 @@ This repository contains my assignments for the **Cognizant Digital Nurture 5.0*
 
 ## 📁 WEEK-1_ASSIGNMENTS
 
-This folder combines all Week 1 and Week 2 assignments, organized into two sub-sections:
+This folder combines all Week 1, Week 2, and Advanced SQL assignments, organized into three sub-sections:
 
 ---
 
@@ -46,7 +46,7 @@ This section covers **Data Structures and Algorithms** exercises in Java.
 
 ---
 
-## 📂 PLSQL_Exercise
+### 📂 Advanced_SQL
 
 This section contains PL/SQL exercises for a **Banking Management System** covering 7 core PL/SQL concepts through practical banking scenarios.
 
