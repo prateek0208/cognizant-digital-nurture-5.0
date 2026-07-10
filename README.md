@@ -97,5 +97,30 @@ This folder contains assignments for **Spring Core and Maven**.
 
 ---
 
+### 📂 Assignment_Spring_Data_JPA_with_Hibernate
+
+This folder contains exercises for **Spring Data JPA and Hibernate** across two main projects:
+
+#### 1. `orm-learn` Project
+A comprehensive hands-on project exploring JPA mapping, query methods, and Hibernate configurations.
+- **Entities & Mappings**: `Country`, `Stock`, Payroll system (`Employee`, `Department`, `Skill`), and Quiz attempt tables (`User`, `Attempt`, `Question`, `Options`).
+- **Features Implemented**:
+  - Derived Query Methods (Search containing text, sorting, greater than, dates).
+  - O/R Mapping: `@ManyToOne`, `@OneToMany`, `@ManyToMany`, `FetchType.EAGER` vs `LAZY`.
+  - Advanced Querying: Hibernate Query Language (HQL), JPQL, Native Queries.
+  - Exception handling with `@Transactional` services.
+
+#### 2. `EmployeeManagementSystem` Project
+A 10-exercise Spring Boot project integrating Data JPA with REST APIs.
+- **Features Implemented**:
+  - Full CRUD operations via `JpaRepository`.
+  - Custom Query methods with `@Query` and `@NamedQuery`.
+  - Pagination and Sorting (`Pageable` and `Sort`).
+  - Entity Auditing (`@EnableJpaAuditing`, `@CreatedDate`, `@LastModifiedDate`).
+  - Projections (Interface-based projections).
+  - Externalized Configuration & Hibernate-specific features (Dialect, DDL).
+
+---
+
 > **Program**: Cognizant Digital Nurture 5.0  
 > **Language**: Java (Exercises), PL/SQL (Database)
