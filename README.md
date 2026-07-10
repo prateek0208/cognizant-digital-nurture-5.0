@@ -122,5 +122,31 @@ A 10-exercise Spring Boot project integrating Data JPA with REST APIs.
 
 ---
 
+### 📂 WEEK-3_ASSIGNMENTS (ASSIGNMENT_spring_REST_using_Spring_Boot)
+
+This folder contains a complete implementation of **Spring REST with Spring Boot**, structured as a single evolving project (`spring-learn`).
+
+#### `spring-learn` Project Features
+- **Spring Core Configuration**:
+  - Utilizing XML configuration (`date-format.xml`, `country.xml`, `employee.xml`) in conjunction with Spring Boot.
+  - Exploring Singleton vs Prototype Bean Scopes.
+- **RESTful Endpoints**:
+  - `HelloController`: Basic `/hello` GET mapping.
+  - `CountryController`: Full suite of GET/POST operations with `@RequestBody`.
+  - `EmployeeController` & `DepartmentController`: Emulating a backend API interacting with populated DAOs.
+- **Validation & Exception Handling**:
+  - Utilizing Java validation (`@NotNull`, `@Size`, `@Valid`) on payload bindings.
+  - Implementing a **Global Exception Handler** (`@ControllerAdvice`) to gracefully handle invalid payloads (`handleMethodArgumentNotValid` and `handleHttpMessageNotReadable`) returning formatted 400 Bad Request JSON.
+  - Custom exceptions (`CountryNotFoundException`) returning 404 Not Found.
+- **Security & JWT Authorization**:
+  - Protecting APIs with **Spring Security** (`@EnableWebSecurity`) and HTTP Basic Auth.
+  - In-memory users (`admin`, `user`) hashed with `BCryptPasswordEncoder`.
+  - Creating an `/authenticate` endpoint to generate **JSON Web Tokens (JWT)** via `jjwt` library.
+  - Implementing a custom `JwtAuthorizationFilter` to parse bearer tokens and establish security context per request.
+- **Automated Testing**:
+  - Full suite of **MockMVC** tests (`@AutoConfigureMockMvc`) for validating 200 OK responses, verifying JSON payloads (`jsonPath`), and confirming correct exceptional scenarios (400 Bad Request / 404 Not Found).
+
+---
+
 > **Program**: Cognizant Digital Nurture 5.0  
 > **Language**: Java (Exercises), PL/SQL (Database)
