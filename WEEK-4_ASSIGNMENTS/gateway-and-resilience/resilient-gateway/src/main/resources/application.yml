@@ -1,0 +1,75 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: resilient-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: account-service
+          uri: lb://account-service
+          predicates:
+            - Path=/accounts/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: accountCircuitBreaker
+                fallbackUri: forward:/fallback
+        - id: loan-service
+          uri: lb://loan-service
+          predicates:
+            - Path=/loans/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: loanCircuitBreaker
+                fallbackUri: forward:/fallback
+        - id: greet-service
+          uri: lb://greet-service
+          predicates:
+            - Path=/greet/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: greetCircuitBreaker
+                fallbackUri: forward:/fallback
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+resilience4j:
+  circuitbreaker:
+    configs:
+      default:
+        sliding-window-size: 10
+        failure-rate-threshold: 50
+        wait-duration-in-open-state: 10000
+        permitted-number-of-calls-in-half-open-state: 5
+        automatic-transition-from-open-to-half-open-enabled: true
+    instances:
+      accountCircuitBreaker:
+        base-config: default
+      loanCircuitBreaker:
+        base-config: default
+      greetCircuitBreaker:
+        base-config: default
+  timelimiter:
+    configs:
+      default:
+        timeout-duration: 3s
+    instances:
+      accountCircuitBreaker:
+        base-config: default
+      loanCircuitBreaker:
+        base-config: default
+      greetCircuitBreaker:
+        base-config: default

@@ -148,5 +148,38 @@ This folder contains a complete implementation of **Spring REST with Spring Boot
 
 ---
 
+### 📂 WEEK-4_ASSIGNMENTS (Spring Cloud & Microservices)
+
+This folder contains a comprehensive implementation of **Spring Cloud and Microservices** spanning 4 project suites with **15 Spring Boot applications**.
+
+#### 1. `microservices-basics/`
+A complete microservice ecosystem with service discovery:
+- **`eureka-server`** – Netflix Eureka Service Registry (port 8761).
+- **`account-service`** – REST API for account data (port 8080), registered with Eureka.
+- **`loan-service`** – REST API for loan data (port 8081), registered with Eureka.
+- **`greet-service`** – Simple greeting API (dynamic port), registered with Eureka.
+- **`api-gateway`** – Spring Cloud Gateway (port 9090) with Discovery Locator and custom `LogFilter`.
+
+#### 2. `gateway-and-resilience/`
+Advanced API Gateway with fault tolerance:
+- **`resilient-gateway`** – Spring Cloud Gateway with Resilience4j Circuit Breaker, TimeLimiter, custom route configuration, logging filters, and fallback controller.
+
+#### 3. `oauth2-and-jwt/`
+Spring Security with modern authentication patterns:
+- **`oauth2-client`** – Google OAuth2 Login integration with `@EnableWebSecurity`.
+- **`resource-server`** – OAuth2 Resource Server validating JWTs.
+- **`jwt-auth-service`** – Custom JWT generation (`jjwt` 0.11.5), `JwtAuthFilter`, in-memory users, stateless sessions.
+
+#### 4. `microservices-advanced/`
+Enterprise-grade microservice patterns:
+- **`config-server`** – Spring Cloud Config Server (native profile) serving centralized configuration.
+- **`user-service`** – Communicates with Order Service via **OpenFeign** (`@FeignClient`).
+- **`order-service`** – Order management REST API registered with Eureka.
+- **`product-service`** – Reads config from Config Server (`spring.config.import`).
+- **`inventory-service`** – Stock/inventory lookup API.
+- **`payment-service`** – Payment processing with **Resilience4j** `@CircuitBreaker` and fallback methods.
+
+---
+
 > **Program**: Cognizant Digital Nurture 5.0  
 > **Language**: Java (Exercises), PL/SQL (Database)
