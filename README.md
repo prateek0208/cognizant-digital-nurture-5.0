@@ -194,6 +194,10 @@ This folder contains assignments for **ReactJS Hands-on Lab**.
 | `Q3_counterapp` | Mall entry/exit counter | Class Components, React State |
 | `Q4_shoppingapp` | Shopping cart display | Props, Component Composition |
 | `Q5_trainersapp` | Academy trainers directory | React Router DOM, URL Parameters (`useParams`) |
+| `Q6_cohorttracker` | Cohort details display | CSS Modules, Styling components |
+| `Q7_scorecalculatorapp` | Student score calculation | Function Components |
+| `Q8_studentapp` | Student portal static pages | Class Components, Multiple components |
+| `Q9_blogapp` | Fetching and displaying blog posts | Component Lifecycle (`componentDidMount`, `componentDidCatch`), Fetch API |
 
 ---
 

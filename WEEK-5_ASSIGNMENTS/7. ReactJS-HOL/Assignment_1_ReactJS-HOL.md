@@ -38,3 +38,30 @@ Create a React Application named `TrainersApp`.
 - Components: `Trainer`, `TrainersMock`, `TrainersList`, `Home`, `TrainerDetail`.
 - Set up routes for `/` (Home) and `/trainers` (TrainersList).
 - Display trainer details using URL parameters (`useParams`).
+
+## 6. Cohort Tracker
+Create a React Application named `cohorttracker`.
+- Create a CSS module `CohortDetails.module.css`.
+- Style a box with width, inline-block, borders, and margins.
+- Style `<dt>` and `<h3>` tags using module classes.
+- Color the status text based on whether it is "ongoing".
+
+## 7. Score Calculator
+Create a React Application named `scorecalculatorapp`.
+- Create a function component `CalculateScore`.
+- Receive props: `Name`, `School`, `Total`, `goal`.
+- Create a CSS stylesheet `mystyle.css`.
+- Calculate and display the score percentage.
+
+## 8. Student App
+Create a React Application named `StudentApp`.
+- Create class components: `Home`, `About`, `Contact`.
+- Render all three components sequentially in `App.js`.
+- Display a respective welcome message in each component.
+
+## 9. Blog App
+Create a React Application named `blogapp`.
+- Create class components `Post` and `Posts`.
+- Initialize state and implement `componentDidMount()` using Fetch API.
+- Fetch posts from JSONPlaceholder.
+- Implement `componentDidCatch()` for error handling.
