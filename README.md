@@ -181,5 +181,21 @@ Enterprise-grade microservice patterns:
 
 ---
 
+## 📁 WEEK-5_ASSIGNMENTS
+
+This folder contains assignments for **ReactJS Hands-on Lab**.
+
+### 📂 7. ReactJS-HOL
+
+| App | Description | Key Concepts |
+|-----|-------------|--------------|
+| `Q1_officespacerentalapp` | Office space details display | JSX, Inline CSS, Conditional Styling |
+| `Q2_cricketapp` | Cricket player listing | ES6 `map()`, Arrow Functions, Destructuring, Spread Operator |
+| `Q3_counterapp` | Mall entry/exit counter | Class Components, React State |
+| `Q4_shoppingapp` | Shopping cart display | Props, Component Composition |
+| `Q5_trainersapp` | Academy trainers directory | React Router DOM, URL Parameters (`useParams`) |
+
+---
+
 > **Program**: Cognizant Digital Nurture 5.0  
-> **Language**: Java (Exercises), PL/SQL (Database)
+> **Language**: Java (Exercises), PL/SQL (Database), ReactJS (Frontend)
