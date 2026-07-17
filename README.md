@@ -198,6 +198,16 @@ This folder contains assignments for **ReactJS Hands-on Lab**.
 | `Q7_scorecalculatorapp` | Student score calculation | Function Components |
 | `Q8_studentapp` | Student portal static pages | Class Components, Multiple components |
 | `Q9_blogapp` | Fetching and displaying blog posts | Component Lifecycle (`componentDidMount`, `componentDidCatch`), Fetch API |
+| `Q10_gitclientapp` | Simple GitHub client component layout | Component modularity |
+| `Q11_cohorttracker` | React component testing | Jest, Enzyme (`shallow`, `find`), Testing configuration |
+| `Q12_fetchuserapp` | Fetching API data and rendering lists | `fetch`, State Management |
+| `Q13_mailregisterapp` | Registration form using Hooks | `useState`, Controlled Inputs |
+| `Q14_ticketraisingapp` | Complaint ticket generation | Form Submission, Dynamic data handling |
+| `Q15_employeesapp` | Global theme management | React Context API (`Provider`, `Consumer`) |
+| `Q16_bloggerapp` | Distinct views for Books, Blogs, Courses | Functional Components, Reusability |
+| `Q17_ticketbookingapp` | Login control for ticket booking | Conditional Rendering |
+| `Q18_eventexamplesapp` | Demonstrating common React events | Event Handling (`onChange`, `onFocus`, `onMouseEnter`, `onClick`) |
+| `Q19_trainticketbooking` | Train ticket booking form | Class Components, Form State, Submit Handling |
 
 ---
 
