@@ -64,4 +64,43 @@ Create a React Application named `blogapp`.
 - Create class components `Post` and `Posts`.
 - Initialize state and implement `componentDidMount()` using Fetch API.
 - Fetch posts from JSONPlaceholder.
-- Implement `componentDidCatch()` for error handling.
+## 10. Git Client App
+Create a React Application named `gitclientapp`.
+- Use Axios to fetch repositories for a user from `api.github.com`.
+- Write Jest tests mocking `axios` in `GitClient.test.js`.
+
+## 11. Cohort Tracker Tests
+- Add Enzyme or RTL tests to the `cohorttracker` app.
+- Test that it initializes props, renders HTML properly, and contains the `h3` element.
+
+## 12. Fetch User App
+Create a React Application named `fetchuserapp`.
+- Fetch data from `https://api.randomuser.me/` and render user details (title, firstname, image).
+
+## 13. Mail Register App
+Create a React Application named `mailregisterapp`.
+- Implement a form with validations for Name, Email, and Password.
+
+## 14. Ticket Raising App
+Create a React Application named `ticketraisingapp`.
+- Implement a complaint form that generates a reference number on submit.
+
+## 15. Employees App
+Create a React Application named `employeesapp`.
+- Convert an app to use React Context API instead of prop-drilling for themes.
+
+## 16. Blogger App
+Create a React Application named `bloggerapp`.
+- Implement conditional rendering for Book Details, Blog Details, and Course Details.
+
+## 17. Ticket Booking App
+Create a React Application named `ticketbookingapp`.
+- Implement conditional rendering based on Login/Logout state.
+
+## 18. Event Examples App
+Create a React Application named `eventexamplesapp`.
+- Implement buttons with synthetic events and event handlers.
+- Create a Currency Convertor.
+
+## 19. Git Client App (Duplicate)
+- Duplicate of Question 10.
